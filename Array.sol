@@ -10,6 +10,7 @@ contract Array {
 
     function puush() external  {
         arr.push(4);    //used push function in the array
+        arr[2] = 20;    //used to update the value of array at the specific position.
     }
     function returnarr() external view returns(uint[] memory) {
         return arr;    //returned the value of array
